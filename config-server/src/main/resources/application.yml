@@ -9,8 +9,8 @@ spring:
       server:
         git :
           uri : https://github.com/Pwenlee/springcloud-demo
-          username : 630238086@qq.com # gitÕËºÅ
-          password : ***********      # gitÃÜÂë
+          username : ***********      # git è´¦å·
+          password : ***********      # git å¯†ç 
           searchPaths :  config
       label : master
 
