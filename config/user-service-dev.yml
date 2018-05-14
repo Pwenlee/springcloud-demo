@@ -14,5 +14,5 @@ spring:
       discovery:
         enabled: true
         service-id: config-server
-temp : 11111111        
+temp : 222222222222        
         
