@@ -14,5 +14,5 @@ spring:
       discovery:
         enabled: true
         service-id: config-server
-userServicevariable : userServicevariable      
+userServiceVariable : userServiceVariable      
         
