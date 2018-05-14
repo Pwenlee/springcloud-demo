@@ -7,3 +7,9 @@ server:
 spring:
   application:
     name: user-controller
+feign:
+  hystrix:
+    enabled : true
+hystrix:
+  metrics:
+    polling-interval-ms: 500

@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lee</groupId>
-    <artifactId>user-service</artifactId>
+    <artifactId>config-server</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
 
-    <name>user-service</name>
-    <description>spring-cloud eureka-client</description>
+    <name>config-server</name>
+    <description>spring-cloud config-server</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -28,7 +28,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka</artifactId>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
 
         <dependency>
@@ -39,18 +39,7 @@
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zipkin</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.lee</groupId>
-            <artifactId>user-api</artifactId>
-            <version>0.0.1</version>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
 
     </dependencies>
@@ -86,5 +75,6 @@
             </snapshots>
         </repository>
     </repositories>
+
 
 </project>
