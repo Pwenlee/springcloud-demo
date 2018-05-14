@@ -7,12 +7,7 @@ server:
 spring:
   application:
     name: user-service
-  cloud:
-    config:
-      label: master
-      profile: dev
-      discovery:
-        enabled: true
-        service-id: config-server
-userServiceVariable : userServiceVariable      
+  zipkin :
+    base-url :  http://localhost:8010
+userServiceVariable : userServiceVariable
         

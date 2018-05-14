@@ -7,6 +7,8 @@ server:
 spring:
   application:
     name: user-controller
+  zipkin :
+    base-url :  http://localhost:8010
 feign:
   hystrix:
     enabled : true
