@@ -18,7 +18,7 @@ spring:
     bus:
       trace:
         enabled : true
-userServiceVariable : userServiceVariable555555
+userServiceVariable : userServiceVariable77777
 management:
   security:
     enabled: false
