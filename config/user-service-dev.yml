@@ -15,4 +15,8 @@ spring:
     username : guest
     password : guest
 userServiceVariable : userServiceVariable
+management:
+  security:
+    enabled: false
+
         
