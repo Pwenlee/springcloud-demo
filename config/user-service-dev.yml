@@ -14,7 +14,11 @@ spring:
     port : 5672
     username : guest
     password : guest
-userServiceVariable : userServiceVariable111
+  cloud :
+    bus:
+      trace:
+        enabled : true
+userServiceVariable : userServiceVariable
 management:
   security:
     enabled: false
