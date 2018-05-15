@@ -9,12 +9,18 @@ spring:
       server:
         git :
           uri : https://github.com/Pwenlee/springcloud-demo
-          username : ***********      # git 账号
-          password : ***********      # git 密码
+          username : ***************      # git 账号
+          password : ****************     # git 密码
           searchPaths :  config
       label : master
-
+      bus:
+        trace:
+          enabled : true
 eureka:
   client:
     serviceUrl:
       defaultZone : http://localhost:8070/eureka/
+
+management:
+  security:
+    enabled: false
