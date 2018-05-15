@@ -18,5 +18,3 @@ userServiceVariable : userServiceVariable
 management:
   security:
     enabled: false
-
-
