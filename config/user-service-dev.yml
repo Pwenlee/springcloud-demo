@@ -9,5 +9,10 @@ spring:
     name: user-service
   zipkin :
     base-url :  http://localhost:9010
+  rabbitmq:
+    host : localhost
+    port : 5672
+    username : guest
+    password : guest
 userServiceVariable : userServiceVariable
         
